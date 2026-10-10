@@ -1,15 +1,8 @@
 Audio Lens Seekbar (foo_audiolens)
 Copyright (c) 2026 Audio Lens. All rights reserved.
 
-The component is free of charge. You may use it for any purpose and pass on copies of the unmodified
-component package (foo_audiolens-<version>.fb2k-component, including this file) to others, provided that
-no fee is charged for it. Modifying, decompiling or redistributing altered versions is not permitted.
+The component is free of charge. You may use it for any purpose and pass on copies of the unmodified component package (foo_audiolens-<version>.fb2k-component, including this file) to others, provided that no fee is charged for it. Modifying, decompiling or redistributing altered versions is not permitted.
 
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
-LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
-EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
-AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
-OR OTHER DEALINGS IN THE SOFTWARE.
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-This component includes third-party software that is licensed under its own terms; see
-THIRD-PARTY-NOTICES.txt.
+This component includes third-party software that is licensed under its own terms; see THIRD-PARTY-NOTICES.txt.
