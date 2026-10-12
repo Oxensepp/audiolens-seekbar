@@ -87,10 +87,13 @@ badge appears only if something is found.
 - Every panel has its own settings and name; 9 built-in presets plus your own.
 - 19 color themes, including C64, Amstrad CPC, NES, Sega Master System, Amiga and an adaptive theme from the
   album art.
+- Position marker to your taste: width down to a crisp 1 px line, color, outline, optional glow.
+- Transparent background: the panel can show your layout's or skin's background, with adjustable lens opacity.
 - Fullscreen across one or more monitors.
 - Export the view or an analysis sheet as PNG or to the clipboard.
 - Playlist context menu *Audio Lens → Analyze (add to cache) / Remove from cache*; optionally analyzes the next
-  track during playback. Results are kept in a memory and a compressed disk cache.
+  track during playback. Results are kept in a memory and a compressed disk cache; panels showing the same
+  track share one analysis.
 
 ![Retro themes](screenshots/09-themes.png)
 *Some of the themes: C64, NES, Sega Master System, Amstrad CPC (spectrum bars), green monitor.*
@@ -110,7 +113,12 @@ badge appears only if something is found.
 Panel settings: right-click → *Configure this panel…*. Defaults for new panels, all visible panels and global
 options (cache, fullscreen, pre-analysis): *Preferences → Visualisations → Audio Lens Seekbar*.
 
-![Preferences](screenshots/08-preferences.png)
+![Preferences: main page](screenshots/10-preferences2.png)
+*Main page: settings for a chosen panel or the defaults for new panels — lens, title, display, position marker,
+transparency, cache.*
+
+![Preferences: metrics](screenshots/08-preferences.png)
+*Metrics page: curves, values and the quality report.*
 
 ## Feedback
 

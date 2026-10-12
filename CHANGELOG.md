@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.1.0
+
+- **Position marker** can be configured: width (down to a crisp 1 px line), color (white, theme color or your
+  own), dark outline, smooth or whole-pixel movement. *Right-click → Display → Position marker*
+- **Transparent background:** the panel can show the background of your layout or skin; the opacity of the lens
+  is adjustable. *Right-click → Display → Transparent background*
+- Darkening of the played part can be switched off. *Right-click → Display → Shade played portion*
+- Loudness values are labelled LUFS-I, LUFS-M and LUFS-S.
+- About 40 % smaller disk cache, and the new format is designed to stay valid in future versions. Cache files from
+  1.0 are not reused: each track is analyzed once more.
+- Several panels showing the same track (e.g. spectrogram and waveform) now share one analysis.
+- Fixed: in Default UI layout editing mode, right-click shows the layout menu again (e.g. *Replace UI Element*).
+- Fixed: the quality report badge shows its details even when tooltips are off; findings are also written to the
+  console.
+- Fixed: the loudness heatmap no longer repeats values that are already shown in the corner.
+
 ## 1.0.0 — first release
 
 - Lenses: spectrogram, waveform (plain / 3-band), spectrum bars at the playback position, loudness heatmap;

@@ -4,7 +4,6 @@ Copyright (c) 2026 Audio Lens. All rights reserved.
 The component is free of charge. You may use it for any purpose and pass on
 copies of the unmodified component package (the .fb2k-component file,
 including this license) to others, provided that no fee is charged for it.
-Modifying, decompiling or redistributing altered versions is not permitted.
 
 THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
