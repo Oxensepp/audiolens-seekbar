@@ -8,7 +8,7 @@ Default UI and Columns UI · 64 and 32 bit · no external tools (no ffmpeg), no 
 
 **[Download the latest version](../../releases/latest)** · [Changelog](CHANGELOG.md)
 
-![Audio Lens Seekbar in foobar2000](screenshots/01-hero.png)
+![Audio Lens Seekbar in foobar2000](screenshots/01-hero.png)\
 *Waveform lens as the main seekbar, spectrogram lens with level scale below — two independent panels.*
 
 ## Requirements
@@ -28,7 +28,7 @@ Default UI and Columns UI · 64 and 32 bit · no external tools (no ffmpeg), no 
 
 ## Lenses
 
-![The four lenses](screenshots/02-lenses.png)
+![The four lenses](screenshots/02-lenses.png)\
 *The same track in all four lenses: spectrogram with metric curves, waveform, live spectrum bars at the playback
 position, loudness heatmap.*
 
@@ -41,7 +41,7 @@ position, loudness heatmap.*
 
 ## Measurements
 
-![Clipping markers and loudness curves](screenshots/04-clipping.png)
+![Clipping markers and loudness curves](screenshots/04-clipping.png)\
 *Clipping markers along the top, true peak above 0 dBTP, a local dynamic range around 4 dB.*
 
 - **Curves** (up to four): local dynamic range, crest factor, PSR, PLR, sample peak (total, left, right), true
@@ -60,7 +60,7 @@ tolerances of the standards, typically within 0.03 LU. The track DR matches foo_
 
 ### Multichannel
 
-![Dolby Atmos track](screenshots/07-multichannel.png)
+![Dolby Atmos track](screenshots/07-multichannel.png)\
 *A Dolby Atmos (TrueHD) track: loudness and true peak over all 8 channels, the waveform shows a stereo
 downmix.*
 
@@ -69,7 +69,7 @@ Atmos channel beds and more. The display shows a stereo downmix.
 
 ## Quality report (optional)
 
-![Quality report](screenshots/06-quality-report.png)
+![Quality report](screenshots/06-quality-report.png)\
 *A 96 kHz / 24 bit file that is neither: nothing above 20 kHz and only 16 bits in use.*
 
 Detects upsampled or resampled files, a possible lossy source (adjustable sensitivity), fake bit depth,
@@ -78,10 +78,10 @@ badge appears only if something is found.
 
 ## Zoom, export and more
 
-![Zoomed view](screenshots/05-zoom.png)
+![Zoomed view](screenshots/05-zoom.png)\
 *Ctrl + wheel zooms into the timeline; the visible section is analyzed again in finer detail.*
 
-![Analysis sheet](screenshots/03-analysis-sheet.png)
+![Analysis sheet](screenshots/03-analysis-sheet.png)\
 *An exported analysis sheet with cover, spectrogram, curves, waveform and measurements.*
 
 - Every panel has its own settings and name; 9 built-in presets plus your own.
@@ -95,7 +95,7 @@ badge appears only if something is found.
   track during playback. Results are kept in a memory and a compressed disk cache; panels showing the same
   track share one analysis.
 
-![Retro themes](screenshots/09-themes.png)
+![Retro themes](screenshots/09-themes.png)\
 *Some of the themes: C64, NES, Sega Master System, Amstrad CPC (spectrum bars), green monitor.*
 
 ## Usage
@@ -113,11 +113,11 @@ badge appears only if something is found.
 Panel settings: right-click → *Configure this panel…*. Defaults for new panels, all visible panels and global
 options (cache, fullscreen, pre-analysis): *Preferences → Visualisations → Audio Lens Seekbar*.
 
-![Preferences: main page](screenshots/10-preferences2.png)
+![Preferences: main page](screenshots/10-preferences2.png)\
 *Main page: settings for a chosen panel or the defaults for new panels — lens, title, display, position marker,
 transparency, cache.*
 
-![Preferences: metrics](screenshots/08-preferences.png)
+![Preferences: metrics](screenshots/08-preferences.png)\
 *Metrics page: curves, values and the quality report.*
 
 ## Feedback
