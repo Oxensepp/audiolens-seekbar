@@ -6,7 +6,7 @@ top.
 
 Default UI and Columns UI · 64 and 32 bit · no external tools (no ffmpeg), no scripting · free
 
-**[Download the latest version](../../releases/latest)** · [Changelog](CHANGELOG.md)
+**[Download the latest version](../../releases/latest)** · [Changelog](CHANGELOG.md) · [foobar2000 component page](https://www.foobar2000.org/components/view/foo_audiolens)
 
 ![Audio Lens Seekbar in foobar2000](screenshots/01-hero.png)\
 *Waveform lens as the main seekbar, spectrogram lens with level scale below — two independent panels.*
