@@ -76,6 +76,23 @@ Detects upsampled or resampled files, a possible lossy source (adjustable sensit
 clipping, DC offset, inter-sample peaks and mono compatibility problems. Off by default; when enabled, a small
 badge appears only if something is found.
 
+## Compare versions
+
+Audio Lens Compare shows up to six versions of a song — original, remaster, vinyl, hi-res — in a window of their
+own: select 2–6 tracks in a playlist and choose *Audio Lens → Compare*.
+
+![Audio Lens Compare](screenshots/11-compare.png)\
+*Five versions of the same song: lanes with spectrograms (top) and the overlay with short-term loudness and the
+spectrum difference to the reference at equal loudness (bottom).*
+
+- The versions are aligned automatically, even with different pauses or speed (vinyl, PAL), and share one
+  timeline and marker. Click a lane or press 1–6 to continue in another version at the same spot (A/B).
+- *Lanes* show each version in a lens of its own; *Overlay* draws the short-term loudness of all versions and
+  their average third-octave spectrum — or its difference to a reference version, optionally at equal loudness,
+  which shows the EQ of each mastering.
+- A table lists LUFS-I, LRA, DR, true peak, PLR, bandwidth, alignment and quality findings.
+- Export a comparison sheet as PNG or to the clipboard.
+
 ## Zoom, export and more
 
 ![Zoomed view](screenshots/05-zoom.png)\
@@ -87,13 +104,14 @@ badge appears only if something is found.
 - Every panel has its own settings and name; 9 built-in presets plus your own.
 - 19 color themes, including C64, Amstrad CPC, NES, Sega Master System, Amiga and an adaptive theme from the
   album art.
-- Position marker to your taste: width down to a crisp 1 px line, color, outline, optional glow.
+- Position marker to your taste: width down to a crisp 1 px line, color, outline, optional glow — or hidden.
+- Playback highlight: the played or the upcoming part of the lens darker, curves fading away from the marker.
 - Transparent background: the panel can show your layout's or skin's background, with adjustable lens opacity.
 - Fullscreen across one or more monitors.
 - Export the view or an analysis sheet as PNG or to the clipboard.
 - Playlist context menu *Audio Lens → Analyze (add to cache) / Remove from cache*; optionally analyzes the next
   track during playback. Results are kept in a memory and a compressed disk cache; panels showing the same
-  track share one analysis.
+  track share one analysis. File types that are slow to decode (e.g. DST, video) can be excluded.
 
 ![Retro themes](screenshots/09-themes.png)\
 *Some of the themes: C64, NES, Sega Master System, Amstrad CPC (spectrum bars), green monitor.*
@@ -107,18 +125,16 @@ badge appears only if something is found.
 | Ctrl + wheel | Zoom at the mouse position |
 | Shift + wheel, horizontal wheel, Ctrl + drag | Pan |
 | Home | Reset zoom |
-| Middle click | Fullscreen on/off (Esc or F11 to leave) |
+| Middle click | Fullscreen on/off (Esc or F11 to leave); can be set to play / pause or nothing |
 | Right click | Menu: lens, metrics, color theme, display, zoom, presets, configure, export, fullscreen |
 
 Panel settings: right-click → *Configure this panel…*. Defaults for new panels, all visible panels and global
-options (cache, fullscreen, pre-analysis): *Preferences → Visualisations → Audio Lens Seekbar*.
+options (cache, fullscreen, pre-analysis, analysis by file type, compare): *Preferences → Visualisations →
+Audio Lens Seekbar*.
 
-![Preferences: main page](screenshots/10-preferences2.png)\
-*Main page: settings for a chosen panel or the defaults for new panels — lens, title, display, position marker,
-transparency, cache.*
-
-![Preferences: metrics](screenshots/08-preferences.png)\
-*Metrics page: curves, values and the quality report.*
+![Preferences](screenshots/12-preferences.png)\
+*Preferences: main page (lens, title, display, position marker, cache) and metrics on the left; compare,
+waveform and analysis by file type on the right.*
 
 ## Feedback
 
