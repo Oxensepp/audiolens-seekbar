@@ -1,5 +1,5 @@
 Audio Lens Seekbar (foo_audiolens)
-Copyright (c) 2026 Audio Lens. All rights reserved.
+Copyright (c) 2026 Stefan Eireiner. All rights reserved.
 
 The component is free of charge. You may use it for any purpose and pass on
 copies of the unmodified component package (the .fb2k-component file,

@@ -1,5 +1,35 @@
 # Changelog
 
+## 1.3.0
+
+- **Spectrum bars, much extended:** *Right-click → Lens → Spectrum bars options*
+  - Live for streams, tracks of unknown length and excluded file types; optionally also for normal playback
+    (*Use live audio while playing*).
+  - Layouts: bottom-up, mirrored, stereo L top / R bottom, stereo L | R with the bass in the center or outside.
+  - Frequency and level range, number of bars (auto, 16–256), octave and third-octave bands with standard center
+    frequencies, A- or C-weighting (levels in dB(A) / dB(C)).
+  - Response (fast, normal, smooth), peaks (classic, gravity, fade out), LED segments.
+  - Timeline below the bars: waveform, progress bar or none; seeking only there.
+  - Tooltip with band and level, optionally updating live.
+  - Own preferences page: *Preferences → Audio Lens Seekbar → Spectrum bars*
+- **Channel in every lens:** the waveform can show stereo, mix, left, right or side; single channels as signed,
+  mirrored or half-wave. *Right-click → Lens → Waveform options*
+- **Stereo spectrogram:** mirrored at 0 Hz (as before) or stacked with 0 Hz at the bottom of each half.
+  *Right-click → Lens → Spectrogram options → Layout*
+- **Guide lines:** your own frequencies (up to 8) and a common style (dotted, dashed, solid; width, color,
+  opacity); also shown in Spectrum bars. *Spectrogram options → Guide lines*
+- **Colors:** new color themes LCARS and Lagoon; own colors for waveform, spectrum bars and background; a theme
+  for tracks without a cover in *Album art*; *Ensure contrast* keeps everything readable on any background.
+  *Right-click → Appearance*
+- **New built-in presets,** grouped as Analysis, Spectrum bars, Style and Retro: RTA (1/3 octave), Stereo Bars,
+  Loudness Bars (A-weighted), Hi-Res Check, Stereo Image. *Right-click → Presets → Built-in*
+- **Menus and preferences reorganized:** the context menu follows the preferences pages (*Appearance*: colors,
+  playback position, transparency; *Display*: title, labels, behavior). Frequency labels, level scale and the new
+  *Show channel labels (L/R)* now apply to all lenses. New preferences page *Appearance*; cache and pre-analysis
+  moved to *Analysis*.
+- The position marker can be drawn behind title, labels and values. *Appearance → Playback position → Marker →
+  Behind text*
+
 ## 1.2.0
 
 - **Audio Lens Compare:** compare up to six versions of a song (e.g. original, remaster, vinyl, hi-res) in a window

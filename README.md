@@ -34,10 +34,14 @@ position, loudness heatmap.*
 
 | Lens | Shows |
 |---|---|
-| Spectrogram | Frequency content over time, linear or logarithmic, mix / left / right / side / stereo, FFT 1024–16384 |
-| Waveform | Peak and RMS envelope, plain or three frequency bands, stereo or mono |
-| Spectrum bars | Live bar spectrum at the playback position, with a waveform timeline |
+| Spectrogram | Frequency content over time, linear or logarithmic, mix / left / right / side / stereo (mirrored or stacked), FFT 1024–16384, guide lines at your own frequencies |
+| Waveform | Peak and RMS envelope, plain or three frequency bands; stereo, mix, left, right or side (signed, mirrored or half-wave) |
+| Spectrum bars | Bar spectrum at the playback position, also live for streams: stereo layouts, octave and third-octave bands, A/C weighting, peaks, LED segments, waveform or progress bar timeline |
 | Loudness heatmap | Short-term and momentary loudness (EBU R128) |
+
+![Stereo spectrogram and spectrum bars](screenshots/13-new-modes.png)\
+*Stereo spectrogram (left channel above, right below), stereo spectrum bars with LED segments, octave bands and
+256 bars, both A-weighted.*
 
 ## Measurements
 
@@ -101,9 +105,10 @@ spectrum difference to the reference at equal loudness (bottom).*
 ![Analysis sheet](screenshots/03-analysis-sheet.png)\
 *An exported analysis sheet with cover, spectrogram, curves, waveform and measurements.*
 
-- Every panel has its own settings and name; 9 built-in presets plus your own.
-- 19 color themes, including C64, Amstrad CPC, NES, Sega Master System, Amiga and an adaptive theme from the
-  album art.
+- Every panel has its own settings and name; 14 built-in presets (analysis, spectrum bars, style, retro) plus
+  your own.
+- 21 color themes, including C64, Amstrad CPC, NES, Sega Master System, Amiga, LCARS, Lagoon and an adaptive
+  theme from the album art; own colors for waveform, bars and background.
 - Position marker to your taste: width down to a crisp 1 px line, color, outline, optional glow — or hidden.
 - Playback highlight: the played or the upcoming part of the lens darker, curves fading away from the marker.
 - Transparent background: the panel can show your layout's or skin's background, with adjustable lens opacity.
@@ -126,15 +131,14 @@ spectrum difference to the reference at equal loudness (bottom).*
 | Shift + wheel, horizontal wheel, Ctrl + drag | Pan |
 | Home | Reset zoom |
 | Middle click | Fullscreen on/off (Esc or F11 to leave); can be set to play / pause or nothing |
-| Right click | Menu: lens, metrics, color theme, display, zoom, presets, configure, export, fullscreen |
+| Right click | Menu: lens, metrics, appearance, display, zoom, presets, configure, export, fullscreen |
 
 Panel settings: right-click → *Configure this panel…*. Defaults for new panels, all visible panels and global
 options (cache, fullscreen, pre-analysis, analysis by file type, compare): *Preferences → Visualisations →
 Audio Lens Seekbar*.
 
 ![Preferences](screenshots/12-preferences.png)\
-*Preferences: main page (lens, title, display, position marker, cache) and metrics on the left; compare,
-waveform and analysis by file type on the right.*
+*Preferences: main page and metrics; appearance and spectrogram; spectrum bars and waveform.*
 
 ## Feedback
 
@@ -142,7 +146,7 @@ Bug reports and suggestions are welcome — in the [issues](../../issues) or in 
 
 ## License
 
-Copyright (c) 2026 Audio Lens. All rights reserved. The component is free of charge; the unmodified package may
+Copyright (c) 2026 Stefan Eireiner. All rights reserved. The component is free of charge; the unmodified package may
 be passed on. See [LICENSE.txt](LICENSE.txt). This repository contains documentation and releases only; the
 source code is not published.
 
