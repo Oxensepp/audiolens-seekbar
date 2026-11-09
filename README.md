@@ -107,7 +107,7 @@ spectrum difference to the reference at equal loudness (bottom).*
 
 - Every panel has its own settings and name; 14 built-in presets (analysis, spectrum bars, style, retro) plus
   your own.
-- 21 color themes, including C64, Amstrad CPC, NES, Sega Master System, Amiga, LCARS, Lagoon and an adaptive
+- 22 color themes, including C64, Amstrad CPC, NES, Sega Master System, Amiga, LCARS, Lagoon, Amber and an adaptive
   theme from the album art; own colors for waveform, bars and background.
 - Position marker to your taste: width down to a crisp 1 px line, color, outline, optional glow — or hidden.
 - Playback highlight: the played or the upcoming part of the lens darker, curves fading away from the marker.

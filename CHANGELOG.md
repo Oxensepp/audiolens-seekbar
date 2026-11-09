@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.3.1
+
+- **Bandwidth fixed:** tracks whose high frequencies fall off gradually (no lowpass) showed far too low a
+  bandwidth, sometimes below 10 kHz – a lossy copy of the same track could show more than the lossless original.
+  Lossy files at high sample rates counted encoder residue above the lowpass (AAC at 96 kHz: 34.4 instead of
+  19.6 kHz).
+- **Bandwidth explained:** for lossy files the readout names the encoder lowpass (*BW 19.6 kHz (encoder lowpass)*).
+  In Compare the bandwidth column shows the loss against the reference in red, e.g. *19.6 kHz (−16.9) lowpass*.
+- **Quality report:** a DC offset below −40 dBFS is now a note (blue) instead of a warning – inaudible and harmless.
+  Lossy files no longer report *Upsampled* or *Resampled from 44.1 kHz*: their cutoff is the encoder's lowpass.
+- New color theme **Amber** (night blue to amber). *Right-click → Appearance → Color theme*
+
 ## 1.3.0
 
 - **Spectrum bars, much extended:** *Right-click → Lens → Spectrum bars options*
