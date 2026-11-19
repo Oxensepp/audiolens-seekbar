@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.3.2
+
+- **Short samples:** as soon as the waveform is resolved (short samples such as a single kick, or deep zoom), it is
+  drawn as a connected line like in a wave editor instead of an envelope; stereo as two lanes (L above, R below).
+  Whole tracks look as before.
+- **Switch presets by key:** *View → Audio Lens: Next preset / Previous preset* steps the last used panel through the
+  built-in presets, then your own; assign keys under *Preferences → Keyboard Shortcuts*. The panel briefly shows
+  the preset category and name.
+- **New built-in presets:** Clipping Check, Sample View, Fading Peaks, LCARS Console, Amber Glow, Amiga Workbench
+  and Amiga Copper-Bar. *Right-click → Presets → Built-in*
+- New color themes **Amiga Workbench** and **Amiga Copper-Bar**. *Right-click → Appearance → Color theme*
+- **When stopped:** the panel shows the last played track, the focused playlist entry or nothing.
+  *Right-click → Display → When stopped, show*
+- **Guide line labels** can be turned off, separately for the spectrogram and the spectrum bars.
+  *Guide lines → Show labels*
+- **Compare:** the third-octave spectra of versions with different sample rates (e.g. 44.1 and 96 kHz) now agree in
+  the bass; before, they could differ by up to 5 dB.
+
 ## 1.3.1
 
 - **Bandwidth fixed:** tracks whose high frequencies fall off gradually (no lowpass) showed far too low a

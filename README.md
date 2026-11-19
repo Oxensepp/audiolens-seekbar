@@ -35,7 +35,7 @@ position, loudness heatmap.*
 | Lens | Shows |
 |---|---|
 | Spectrogram | Frequency content over time, linear or logarithmic, mix / left / right / side / stereo (mirrored or stacked), FFT 1024–16384, guide lines at your own frequencies |
-| Waveform | Peak and RMS envelope, plain or three frequency bands; stereo, mix, left, right or side (signed, mirrored or half-wave) |
+| Waveform | Peak and RMS envelope, plain or three frequency bands; stereo, mix, left, right or side (signed, mirrored or half-wave); short samples and deep zoom as a line like in a wave editor |
 | Spectrum bars | Bar spectrum at the playback position, also live for streams: stereo layouts, octave and third-octave bands, A/C weighting, peaks, LED segments, waveform or progress bar timeline |
 | Loudness heatmap | Short-term and momentary loudness (EBU R128) |
 
@@ -105,10 +105,10 @@ spectrum difference to the reference at equal loudness (bottom).*
 ![Analysis sheet](screenshots/03-analysis-sheet.png)\
 *An exported analysis sheet with cover, spectrogram, curves, waveform and measurements.*
 
-- Every panel has its own settings and name; 14 built-in presets (analysis, spectrum bars, style, retro) plus
-  your own.
-- 22 color themes, including C64, Amstrad CPC, NES, Sega Master System, Amiga, LCARS, Lagoon, Amber and an adaptive
-  theme from the album art; own colors for waveform, bars and background.
+- Every panel has its own settings and name; 21 built-in presets (analysis, spectrum bars, style, retro) plus
+  your own; *View → Audio Lens: Next / Previous preset* switches them by key.
+- 24 color themes, including C64, Amstrad CPC, NES, Sega Master System, Amiga (Workbench, Copper-Bar), LCARS,
+  Lagoon, Amber and an adaptive theme from the album art; own colors for waveform, bars and background.
 - Position marker to your taste: width down to a crisp 1 px line, color, outline, optional glow — or hidden.
 - Playback highlight: the played or the upcoming part of the lens darker, curves fading away from the marker.
 - Transparent background: the panel can show your layout's or skin's background, with adjustable lens opacity.
@@ -132,6 +132,7 @@ spectrum difference to the reference at equal loudness (bottom).*
 | Home | Reset zoom |
 | Middle click | Fullscreen on/off (Esc or F11 to leave); can be set to play / pause or nothing |
 | Right click | Menu: lens, metrics, appearance, display, zoom, presets, configure, export, fullscreen |
+| Own keys | *View → Audio Lens: Next / Previous preset* (assign under *Preferences → Keyboard Shortcuts*) |
 
 Panel settings: right-click → *Configure this panel…*. Defaults for new panels, all visible panels and global
 options (cache, fullscreen, pre-analysis, analysis by file type, compare): *Preferences → Visualisations →
