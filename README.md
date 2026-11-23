@@ -116,7 +116,8 @@ spectrum difference to the reference at equal loudness (bottom).*
 - Export the view or an analysis sheet as PNG or to the clipboard.
 - Playlist context menu *Audio Lens → Analyze (add to cache) / Remove from cache*; optionally analyzes the next
   track during playback. Results are kept in a memory and a compressed disk cache; panels showing the same
-  track share one analysis. File types that are slow to decode (e.g. DST, video) can be excluded.
+  track share one analysis. File types that are slow to decode (e.g. DST, video) can be excluded,
+  also by double extension (e.g. `*.dst.iso`).
 
 ![Retro themes](screenshots/09-themes.png)\
 *Some of the themes: C64, NES, Sega Master System, Amstrad CPC (spectrum bars), green monitor.*
@@ -126,7 +127,7 @@ spectrum difference to the reference at equal loudness (bottom).*
 | Action | Effect |
 |---|---|
 | Click / drag | Seek (when stopped: start playback there) |
-| Mouse wheel | Seek −/+ 5 s |
+| Mouse wheel, Left / Right | Seek −/+ 5 s (step and direction: *Display → Mouse wheel and arrow keys*; arrow keys after a click on the panel) |
 | Ctrl + wheel | Zoom at the mouse position |
 | Shift + wheel, horizontal wheel, Ctrl + drag | Pan |
 | Home | Reset zoom |

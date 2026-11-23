@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.3
+
+- **Preferences fixed at >100 % scaling:** The pages were cut off on the right. They now use the same font as foobar2000 and fit at any scaling.
+- **Double extensions** in the analysis list, e.g. `dst.iso` or `dst.dff`: exclude only files which were renamed that way (such as DST-compressed SACD images) instead of all ISO or DFF files. *Preferences → Audio Lens Seekbar → Analysis*
+- **Mouse wheel:** seek step of 1, 2, 5, 10 or 30 s and reversed direction.
+  *Right-click → Display → Mouse wheel and arrow keys*
+- **Arrow keys:** after a click on the panel, Left / Right seek by the same step.
+
 ## 1.3.2
 
 - **Short samples:** as soon as the waveform is resolved (short samples such as a single kick, or deep zoom), it is
