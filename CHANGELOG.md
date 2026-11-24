@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.4
+
+- **Tags can be written during analysis:** Tag editors, ReplayGain and true peak scanners no longer fail on a file that is currently being analyzed. The analysis steps aside and continues where it left off.
+- **Pause analysis:** Holds all analyses, e.g. while a scanner is running. Cached results are still shown. *Right-click → Pause analysis (all panels)*.
+- **Bandwidth of hi-res files** is measured correctly when the highs fade out gently or the recording has noise up to the top. Before, such files could show about 20–25 kHz and a false "Likely upsampled".
+
 ## 1.3.3
 
 - **Preferences fixed at >100 % scaling:** The pages were cut off on the right. They now use the same font as foobar2000 and fit at any scaling.

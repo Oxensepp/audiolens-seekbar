@@ -117,7 +117,8 @@ spectrum difference to the reference at equal loudness (bottom).*
 - Playlist context menu *Audio Lens → Analyze (add to cache) / Remove from cache*; optionally analyzes the next
   track during playback. Results are kept in a memory and a compressed disk cache; panels showing the same
   track share one analysis. File types that are slow to decode (e.g. DST, video) can be excluded,
-  also by double extension (e.g. `*.dst.iso`).
+  also by double extension (e.g. `*.dst.iso`). Tag editors and ReplayGain scanners can write to a file while it is
+  being analyzed; *Right-click → Pause analysis* holds all analyses.
 
 ![Retro themes](screenshots/09-themes.png)\
 *Some of the themes: C64, NES, Sega Master System, Amstrad CPC (spectrum bars), green monitor.*
